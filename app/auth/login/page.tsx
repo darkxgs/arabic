@@ -129,10 +129,20 @@ function LoginForm() {
 
   return (
     <div className="flex min-h-screen items-center justify-center flex-col p-4 bg-muted/40">
-      <div className="text-center space-y-2 mb-10">
-          {/* Replace with your logo */}
-          <img src="/rased-logo.png" alt="راصد التحفيزية" className="mx-auto h-28 w-auto" />
-          <h1 className="text-3xl font-bold">أهلاً بك في منصة راصد التحفيزية</h1>
+      <div className="text-center space-y-4 mb-10">
+          {/* Logo without white frame */}
+          <div className="mx-auto">
+            <img 
+              src="/rased-logo.png" 
+              alt="راصد التحفيزية" 
+              className="h-28 w-auto" 
+              style={{ filter: 'drop-shadow(0 0 1px rgba(0, 0, 0, 0.1))' }}
+            />
+          </div>
+          <div className="space-y-1">
+            <h1 className="text-3xl font-bold">أهلاً بك في منصة</h1>
+            <h1 className="text-3xl font-bold">راصد التحفيزية</h1>
+          </div>
           <p className="text-muted-foreground">الرجاء تسجيل الدخول أو إنشاء حساب جديد للمتابعة</p>
         </div>
       <Card className="max-w-md w-full">

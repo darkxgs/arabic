@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
-  <!-- Blue shield outline -->
-  <path d="M400 100 C 250 100, 150 150, 150 300 C 150 500, 300 650, 400 700 C 500 650, 650 500, 650 300 C 650 150, 550 100, 400 100 Z" fill="#fff" stroke="#004790" stroke-width="30"/>
+  <!-- Blue shield outline without white fill -->
+  <path d="M400 100 C 250 100, 150 150, 150 300 C 150 500, 300 650, 400 700 C 500 650, 650 500, 650 300 C 650 150, 550 100, 400 100 Z" fill="none" stroke="#004790" stroke-width="30"/>
 
   <!-- Gold stars on top -->
   <g transform="translate(400, 210) scale(0.7)">
